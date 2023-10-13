@@ -280,7 +280,7 @@ header .busqueda {
 #grid-layout-hombres .container-descuentos img {
   display: flex;
   justify-content: center;
-  height: 350px;
+  height: auto;
   width: auto;
   margin: 15px 5px;
   border-radius: 5px;
