@@ -254,7 +254,7 @@ header .busqueda {
   transform: scale(1.1);
 }
 #grid-layout-hombres #productos .card .card-body {
-  height: 200px;
+  height: 170px;
 }
 #grid-layout-hombres #productos .card .card-body .card-title {
   text-align: start;
