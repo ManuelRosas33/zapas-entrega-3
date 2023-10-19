@@ -10,16 +10,18 @@
     #carouselExampleAutoplaying { 
         display: flex;
         justify-content: center;
+        width: 60%;
+        height: 60%;
 
         .carousel {
-            width:500px ;
+            width:100% ;
             display: flex;
             justify-content: center;
                 
         }
 
         .carousel-item img { 
-            height: 550px;
+            height: 700px;
             width: 300px;
             display: flex;
             justify-content: center;
@@ -29,7 +31,7 @@
         
 }
 #grid-layout {
-    background-color: rgb(123, 37, 37);
+    background-color: rgb(113, 37, 37);
     margin: 0px 0px;
     padding:0px 0px;
     /* productos */
@@ -39,17 +41,20 @@
         padding: 25px;
         display: flex;
         justify-content: center;
-        
+    
         .card { 
-            width: 100%;
+            width: 95%;
             height: auto;
             margin: 10px 0px;
             padding: auto;
             border: solid 01px rgb(19, 19, 19);
+        
+            
+        
 
             .card-img-top {
                 margin: 0px 0px;
-                padding: 0px;
+                padding: 0px 0px;
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -57,7 +62,8 @@
             }
 
             .card-body {
-                height: 200px;
+                height: 170px;
+            
                 .card-title {
                     text-align: start;
                     
@@ -89,13 +95,14 @@
     .container-descuentos { 
         display: flex;
         justify-content: center;
-        margin: 5px 50px 0px;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin: 25px auto; 
+    
         img {
             display: flex;
             justify-content: center;
-            height: 450px;
-            width: auto;
-            margin: 15px 5px ;
             border-radius: 5px;
         }
 
@@ -107,11 +114,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0px  0px;
-        padding: 0px 0px;
+        
         img {
-            margin: 25px;
-            padding: 0px 0px;
+            
+            
+            padding: 15px 5px;
             width: 200px;
             &:hover {
                 transform: scale(1.2);
@@ -119,6 +126,32 @@
         
         }
     
+    }
+
+    .container-formulario {
+        padding: 40px 55px 55px 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(87, 32, 13);
+        .form-label {
+            color: #fff;
+        }
+        .form-text {
+            color: #fff;
+        }
+
+        .btn-primary {
+            border:solid black 0.1px ;
+            background-color: #515050;
+            &:hover {
+                border: none;
+                background-color: #c1bebe;
+            }
+        
+        }
+    
+
     }
 
 }
