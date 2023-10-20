@@ -30,20 +30,23 @@
     }
         
 }
-#grid-layout {
+.grid-layout {
+    
     background-color: rgb(113, 37, 37);
     margin: 0px 0px;
     padding:0px 0px;
-    /* productos */
+    
 
     #productos { 
-        margin: 30px 30px;
-        padding: 25px;
         display: flex;
         justify-content: center;
+        justify-content: center;
+        width: auto;        
+        margin: 0px 30px;
+        padding: 0px 25px;
     
         .card { 
-            width: 95%;
+            width: 100%;
             height: auto;
             margin: 10px 0px;
             padding: auto;
@@ -71,7 +74,9 @@
                 .card-text {
                     font-size: 1.3em ;
                     text-align: start;
-                    font-weight: bold
+                    font-weight: bold;
+                    color: black;
+                
     
                 }
                 .btn-primary {
@@ -144,6 +149,7 @@
         .btn-primary {
             border:solid black 0.1px ;
             background-color: #515050;
+            border: none;
             &:hover {
                 border: none;
                 background-color: #c1bebe;

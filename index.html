@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda-en-linea</title>
     <link rel="icon" href="./img/logo.png" type="image/x-icon">
+
 <!-- Aplicando bootstrap--> 
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+<!-- Aplicando iconos-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--Link hoja maestra-->
     <link rel="stylesheet" href="./css/stilo.css"> 
 
@@ -65,258 +66,295 @@
 
 <!--seccion publicidad-->
 
-<section id="grid-layout" >  
-        
-            <section class="container-publicidad">
-                <div class="row">
-                    <div class="col">
-                        <h1>ZAPATILLAS INTELIGENTES</h1>
-                        
-                        <div id="publicidad" >
-                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./img/publcidad/adidas-2.jpg" class="d-block w-100 " alt="publicidad 1">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img/publcidad/adidas-4.jpg" class="d-block w-100" alt="publicidad 2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img//publcidad/nike-1.gif" class="d-block w-100" alt="publicidad 3" >
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img/publcidad/nike-4.jpg" class="d-block w-100" alt="publicidad 4">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img/publcidad/puma-2.jpg" class="d-block w-100" alt="publicidad 5">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img/publcidad/puma-4.jpg" class="d-block w-100" alt="publicidad 6" >
-                                </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Aterior</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Siguiente</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                
-                </div>
-
-                
-            </section>
-        <!-- termina seccion publicidad-->
-
-
-        <!--empiezan productos-->
-
-
-        <h2> RUNNING WHIT YOU </h2>
-            <section id="productos">
-                <section class="container-pruductos">
+<section class="grid-layout" >  
+    
+                <section class="container-publicidad">
                     <div class="row">
-                        <div class="col-sm-3 col-md-3 col-lg-3">
+                        <div class="col">
+                            <h1>ZAPATILLAS INTELIGENTES</h1>
                             
-                        
-                            <div class="card">
-                                <img src="./img/zapas_index/Zapatillas-Adidas-Nmdr1-primeblue-Hombre.jpg" class="card-img-top" alt="Zapatillas Adiddas Nmdr1 Primeblue Hombre">
-                                <div class="card-body">
-                                <h5 class="card-title">Zapatillas Adiddas Nmdr1 Primeblue Hombre</h5>
-                                <p class="card-text">$99.999</p>
-                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                                </div>
-                            </div>
-                        </div>        
-                        
-                        <div class="col-sm-3   col-md-3 col-lg-3">
-                            <div class="card" >
-                                <img src=".//img/zapas_index/Zapatilla-Nike-Dunk-Low-Hombre.jpg" class="card-img-top" alt="Zapatillas Nike Dunk Low Hombre" >
-                                <div class="card-body">
-                                <h5 class="card-title">Zapatilla Nike Dunk Low Hombre</h5>
-                                <p class="card-text">$99.999</p>
-                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            <div id="publicidad" >
+                                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/publcidad/adidas-2.jpg" class="d-block w-100 " alt="publicidad 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/publcidad/adidas-4.jpg" class="d-block w-100" alt="publicidad 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img//publcidad/nike-1.gif" class="d-block w-100" alt="publicidad 3" >
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/publcidad/nike-4.jpg" class="d-block w-100" alt="publicidad 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/publcidad/puma-2.jpg" class="d-block w-100" alt="publicidad 5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/publcidad/puma-4.jpg" class="d-block w-100" alt="publicidad 6" >
+                                    </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Aterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class=" col-sm-3  col-md-3 col-lg-3">
-                            <div class="card" >
-                                <img src="./img/zapas_index/Zapatilla-Jordan-Cmtf-2-Mujer.jpg" class="card-img-top" alt="Zapatillas Jordan Cmtf-2" >
-                                <div class="card-body">
-                                <h5 class="card-title">Zapatilla Jordan Cmtf 2 Mujer</h5>
-                                <p class="card-text">$99.999</p>
-                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" col-sm-3  col-md-3 col-lg-3">
-                            <div class="card" >
-                                <img src="./img//zapas_index/Zapatillas-Puma-Rider-Fv.jpg" class="card-img-top" alt="Zapatillas Puma Rider FV" >
-                                <div class="card-body">
-                                <h5 class="card-title">Zapatillas Puma Rider Fv</h5>
-                                <p class="card-text">$99.999</p>
-                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                                </div>
-                            </div>
-                        
-                        </div>
+                    
                     </div>
-                </section>
-            </section>
-        <!--termina productos-->
-        <!--empieza descuentos-->
-        <section class="container-descuentos">
-            <div class="row">
-                <div class="col-sm-9 col-md-12 col-lg-12 ">
 
-                        <a href="#" target="_blank">
-                        <img src="./img/descuento/Zapatillas-de-Padel-NIKE-descuento.jpg" class="img-fluid"  alt="Imagenes de descuento"  >
-                        </a>
+                    
+                </section>
+            <!-- termina seccion publicidad-->
+
+
+            <!--empiezan productos-->
+
+
+            <h2> RUNNING WHIT YOU </h2>
+                <section id="productos">
+                    <section class="container-pruductos">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-lg-3">
+                                
+                            
+                                <div class="card">
+                                    <img src="./img/zapas_index/Zapatillas-Adidas-Nmdr1-primeblue-Hombre.jpg" class="card-img-top" alt="Zapatillas Adiddas Nmdr1 Primeblue Hombre">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Zapatillas Adiddas Nmdr1 Hombre</h5>
+                                    <p class="card-text">$99.999</p>
+                                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                                    </div>
+                                </div>
+                            </div>        
+                            
+                            <div class="col-sm-3   col-md-3 col-lg-3">
+                                <div class="card" >
+                                    <img src=".//img/zapas_index/Zapatilla-Nike-Dunk-Low-Hombre.jpg" class="card-img-top" alt="Zapatillas Nike Dunk Low Hombre" >
+                                    <div class="card-body">
+                                    <h5 class="card-title">Zapatilla Nike Dunk Low Hombre</h5>
+                                    <p class="card-text">$99.999</p>
+                                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class=" col-sm-3  col-md-3 col-lg-3">
+                                <div class="card" >
+                                    <img src="./img/zapas_index/Zapatilla-Jordan-Cmtf-2-Mujer.jpg" class="card-img-top" alt="Zapatillas Jordan Cmtf-2" >
+                                    <div class="card-body">
+                                    <h5 class="card-title">Zapatilla Jordan Cmtf 2 Mujer</h5>
+                                    <p class="card-text">$99.999</p>
+                                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-3  col-md-3 col-lg-3">
+                                <div class="card" >
+                                    <img src="./img//zapas_index/Zapatillas-Puma-Rider-Fv.jpg" class="card-img-top" alt="Zapatillas Puma Rider FV" >
+                                    <div class="card-body">
+                                    <h5 class="card-title">Zapatillas Puma Rider Fv</h5>
+                                    <p class="card-text">$99.999</p>
+                                    <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            <!--termina productos-->
+            <!--empieza descuentos-->
+            <section class="container-descuentos">
+                <div class="row">
+                    <div class="col-sm-9 col-md-12 col-lg-12 ">
+
+                            <a href="#" target="_blank">
+                            <img src="./img/descuento/Zapatillas-de-Padel-NIKE-descuento.jpg" class="img-fluid"  alt="Imagenes de descuento"  >
+                            </a>
+                    </div>
+                    
+                    
+                </div>    
+            </section>
+            <!--termina descuentos-->
+
+            <!--empieza marcas seleccioandad-->
+
+                <h3> SELECCION POR MARCAS</h3>
+
+                    <section class="container-seleccionadas mt-4 "  >
+                        <div class="row m-t 4">
+                            <div  class="col-xs-4 col-sm-12 col-md-4 col-lg-2  ">
+                                <a href="https://www.adidas.cl/" target="_blank">
+                                    <img src="./img/logos_masrcas/adidas-9.svg" alt="logo marca adiddas" >
+                                </a>
+                            </div>
+                            <div  class="col-xs-4 col-sm-12 col-md-4 col-lg-2">
+                                <a href="https://www.fila.com/" target="_blank">
+                                    <img src="./img/logos_masrcas/fila.png"  alt="logo marca fila" >
+                                </a>
+                            </div>
+                    
+                            <div class="col-xs-4 col-sm-12 col-md-4 col-lg-2">
+                                <a href="https://www.nike.com/es/" target="_blank">
+                                    <img src="./img/logos_masrcas/nike-11.svg" alt="logo marca nike" >
+                                    </a>
+                        
+                            </div>
+                            <div class="col-xs-4 col-sm-2 col-md-4 col-lg-2">
+                                <a href="https://cl.puma.com/" target="_blank">
+                                    <img src="./img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
+                                    </a>
+                            </div>
+                            <div class="col-xs-4 col-sm-2 col-md-4 col-lg-2">
+                                <a href="https://cl.puma.com/" target="_blank">
+                                    <img src="./img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
+                                    </a>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-2">
+                                <a href="https://cl.puma.com/" target="_blank">
+                                    <img src="./img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
+                                    </a>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+
+            <!--termina marcas seleccioandad-->
+
+        <!-- Empieza Formulario-->
+        <section class="container-formulario">
+            <form>
+                <h4>  ¡SUSCRIBETE Y OBTEN $50000 DE REGALO!</h4>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label"> Direccion de correo electronico: </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" >
+                    <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electronico con nadie.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Escribe tú telefono:</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" >
+                    <div id="telefonohelp" class="form-text">Nunca compartiremos tu telefono con nadie.</div>
                 </div>
                 
-                
-            </div>    
+                <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </form>
         </section>
-        <!--termina descuentos-->
-
-        <!--empieza marcas seleccioandad-->
-
-            <h3> SELECCION POR MARCAS</h3>
-
-                <section class="container-seleccionadas mt-4 "  >
-                    <div class="row m-t 4">
-                        <div  class="col-xs-4 col-sm-12 col-md-4 col-lg-2  ">
-                            <a href="https://www.adidas.cl/" target="_blank">
-                                <img src="./img/logos_masrcas/adidas-9.svg" alt="logo marca adiddas" >
-                            </a>
-                        </div>
-                        <div  class="col-xs-4 col-sm-12 col-md-4 col-lg-2">
-                            <a href="https://www.fila.com/" target="_blank">
-                                <img src="./img/logos_masrcas/fila.png"  alt="logo marca fila" >
-                            </a>
-                        </div>
-                
-                        <div class="col-xs-4 col-sm-12 col-md-4 col-lg-2">
-                            <a href="https://www.nike.com/es/" target="_blank">
-                                <img src="./img/logos_masrcas/nike-11.svg" alt="logo marca nike" >
-                                </a>
-                    
-                        </div>
-                        <div class="col-xs-4 col-sm-2 col-md-4 col-lg-2">
-                            <a href="https://cl.puma.com/" target="_blank">
-                                <img src="./img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
-                                </a>
-                        </div>
-                        <div class="col-xs-4 col-sm-2 col-md-4 col-lg-2">
-                            <a href="https://cl.puma.com/" target="_blank">
-                                <img src="./img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
-                                </a>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-2">
-                            <a href="https://cl.puma.com/" target="_blank">
-                                <img src="./img/logos_masrcas/puma-logo.svg" alt="logo marca puma" >
-                                </a>
-                        </div>
-                        
-                    </div>
-                </section>
-
-
-        <!--termina marcas seleccioandad-->
-
-    <!-- Empieza Formulario-->
-    <section class="container-formulario">
-        <form>
-            <h4>  ¡SUSCRIBETE Y OBTEN $50000 DE REGALO!</h4>
-            <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label"> Direccion de correo electronico: </label>
-                <input type="text" class="form-control" id="formGroupExampleInput" >
-                <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electronico con nadie.</div>
-            </div>
-            <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label">Escribe tú telefono:</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" >
-                <div id="telefonohelp" class="form-text">Nunca compartiremos tu telefono con nadie.</div>
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Inscribirse</button>
-        </form>
-    </section>
+    
     <!-- Termina Formulario-->
 </section>
 </main>
 <!-- termina main -->
 
 <!--empieza footer-->
-<footer>
-        
-    <section class="container-footer">
-        <div class="row">
-            <div class=" col-sm-4 col-md-3 col-lg-3 ">
-                <h4>Ayuda</h4>  
-                <ul>
-                    <li> <a href="#">Envios y entregas</a></li>
-                    <li> <a href="#">Devoluciones</a></li>
-                    <li> <a href="#">Cambios</a></li>
-                    <li> <a href="#">Opciones de pago</a></li>
-                </ul>
-                        
-            </div> 
-        
-            <div class=" col-sm-4 col-md-3 col-lg-3 ">
-                <h4> Acerca de Zapas</h4>
-                <ul>
-                    <li> <a href="#">Nosotros</a></li>
-                    <li> <a href="#">Politicas de privacidad</a> </li>
-                    <li> <a href="#">Terminos y condiciones</a> </li>
-                    <li> <a href="#">Inversionistas</a> </li>
-                </ul>
-            </div>
-            <div class=" col-sm-4 col-md-3 col-lg-3 ">
-                <h4>Atencion al Cliente</h4>
-                <ul>
-                    <li> <a href="#">Contacto</a> </li>
-                    <li>  <a href="#">Whatsapp</a> </li>
-                    <li>  <a href="#">Telefono fijo</a> </li>
-                    <li> <a href="#" > 7623635</a></li>
-                </ul>
-            </div>
-                    
-        
-            <div class=" col-sm-4 col-md-3 col-lg-3">
-                <div class="social">
-                    <ul>
-                        <li> <a href="https://twitter.com/?lang=es" target="_blank">
-                                <img src="../icons/logo-twitter (1).svg" alt="Seguinos en twitter" >
-                            </a>
-                        </li>
+<footer class="bg-ligth text-dark ">
+    <div class="container-footer text-center text-md-start">
+        <div class="row text-center text-md-start">
             
-                        <li> <a href="https://www.facebook.com/" target="_blank">
-                                <img src="../icons/facebook.svg" alt="Seguinos en Facebook">
-                        </li>
-                        <li> <a href="https://www.instagram.com/" target="_blank">
-                                <img src="../icons/instagram.svg" alt="Seguinos en instagram" >
-                            </a>
-                        </li>
-                        <li> <a href="https://www.tiktok.com/es/" target="_blank">
-                                <img  src="../icons/logo-tiktok (1).svg" alt="Seguinos en TikTok"  >
-                            </a>
-                        </li>
-                    </ul>    
-                </div>
-            </div>
-        </div>
-    
-    </section>
-<h6 class="footer-copyright">&copy; 2023 ZAPAS.waw. Todos los derechos reservados.</h6>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h4 class="text-uppercase font-weight-bold "> Nosotros</h4>
+                <hr class="mb-3">
 
+                <p>
+                    ZAPAS es un proyecto de desarrollo web creado con el fin de implemetar todas las tecnicas aprendidas en clase para llevar el desarrolllo de una pagina.
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+                <h4 class="text-uppercase  text-center"> Ayuda</h4>
+                <hr class="mb-3">
+                <p>
+                    <a href="#" >Envios y entregas</a>
+                </p>
+                <p>
+                    <a href="#" >Devoluciones</a>
+                </p>
+                <p>
+                    <a href="#" >Cambios</a>
+                </p>
+                <p>
+                    <a href="#" >Opciones de pago</a>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h4 class="text-uppercase  "> Trabaja con nosotros</h4>
+                <hr class="mb-3">
+                <p>
+                    <a href="#" > Anuncios</a>
+                </p>
+                <p>
+                    <a href="#" >Afiliate</a>
+                </p>
+                <p>
+                    <a href="#" >Publica</a>
+                </p>
+                <p>
+                    <a href="#" >Inversiones</a>
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h4 class="text-uppercase  "> Contacto</h4>
+                <hr class="mb-3">
+                <p>
+                <a href="#"> <li class="fas fa-home me-3">  </li>Buenos Aires, Argentina </a>
+                </p>
+                <p>
+                <a href="#">  <li class="fas fa-envelope me-3">  </li>zapaz@gmail.com </a>
+                </p>
+                <p>
+                    <a href="#"> <li class="fas fa-phone me-3">  </li>+555555555 </a>
+                </p>
+            </div>
+
+            <hr class="mb-4">
+            
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-drak"> <i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-drak"> <i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-drak"> <i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-drak"> <i class="fab fa-tiktok"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-drak"> <i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-center mb-2">
+                <p class="footer-copyright"> &copy; 2023 ZAPAS.waw. Todos los derechos reservados
+                    
+                    <a href="#">
+                        <strong class="text-primary text-dark">
+                            Manuel Rosas </strong>
+                    </a>
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>  
+
+        
 </footer>
 
 

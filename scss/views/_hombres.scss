@@ -5,12 +5,15 @@
     margin: 0px 0px;
     padding: 0px 0px;
     width: 100%;
-
-    .container-filtros {
     
+    .container-filtros {
+        display: flex;
+        justify-content: start;
+        align-items: center;
         margin: 10px 10px;
-        padding: 0px 10px;
+        padding: auto;
     }
+    
     #productos {  
         display: flex;
         justify-content: center;
@@ -21,7 +24,7 @@
     
     
         .card { 
-            width: 95%;
+            width: 100%;
             height: auto;
             margin: 10px 0px;
             padding: auto;
@@ -49,7 +52,8 @@
                 .card-text {
                     font-size: 1.3em ;
                     text-align: start;
-                    font-weight: bold
+                    font-weight: bold;
+                    color: black;
     
                 }
                 .btn-primary {

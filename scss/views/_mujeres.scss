@@ -8,7 +8,7 @@
 
     .container-filtros {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         margin: 10px 10px;
         padding: auto;
@@ -39,10 +39,13 @@
             margin: 10px 0px;
             padding: auto;
             border: solid 01px rgb(19, 19, 19);
+        
+            
+        
 
             .card-img-top {
                 margin: 0px 0px;
-                padding: 0px;
+                padding: 0px 0px;
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -50,7 +53,8 @@
             }
 
             .card-body {
-                height: 200px;
+                height: 170px;
+            
                 .card-title {
                     text-align: start;
                     
@@ -58,7 +62,9 @@
                 .card-text {
                     font-size: 1.3em ;
                     text-align: start;
-                    font-weight: bold
+                    font-weight: bold;
+                    color: black;
+                
     
                 }
                 .btn-primary {
@@ -79,28 +85,46 @@
     #publicidad-mujeres {
         display: flex;
         justify-content: center;
-        margin: 25px;
             
         #carouselExampleAutoplaying { 
             display: flex;
             justify-content: center;
+            width: 60%;
+            height: 60%;
     
             .carousel {
-                width:500px ;
+                width:80% ;
                 display: flex;
                 justify-content: center;
                     
             }
     
             .carousel-item img { 
-                height: 550px;
-                width: 300px;
+                height: 500px;
+                width: 500px;
                 display: flex;
                 justify-content: center;
                 border: 2px ride #5d5d5d;
             }
         }
             
+    }
+    .container-seleccionadas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            
+            
+            padding: 15px 5px;
+            width: 200px;
+            &:hover {
+                transform: scale(1.2);
+            }
+        
+        }
+    
     }
 
     
