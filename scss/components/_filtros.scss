@@ -1,26 +1,48 @@
 .container-filtros {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 20px;
 
-    align-items: center;
+    .containercollapse {
+        padding: 0px;
+        #containerColappse {
+            display: flex;
+            justify-content: end;
+            margin: 30px;
+            padding: 0px;
+        }
+    }
+        
+        #min-price {
+            width: 250px;
+        }
+        #max-price {
+            width: 250px;
+        }
+    
+    
     .btn-primary-filtros {
-        margin: 30px 130px;
-        color: #0b0202;
-        background-color: #ffffff;
+        
+        width: 130px;
+        margin: 30px 0px 0px 50px ;
+        color: #ffffff;
+        background-color: #969696bc;
         &:hover {
             border: none;
-            background-color: #e3e3e3;
+            background-color: #a8a8a8;
         }
     }
 
-    .precios {
+
         .btn-primary-filtrar {
             margin: 10px 10px;
-            color: #0b0202;
-            background-color: #d5d2d2;
+            color: #ffffff;
+            background-color: #969696bc;
             &:hover {
                 border: none;
-                background-color: #e3e3e3;
+                background-color: #a8a8a8;
             }
         }
-    }
+    
 }
 

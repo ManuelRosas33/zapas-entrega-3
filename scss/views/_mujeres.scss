@@ -2,7 +2,7 @@
 #grid-layout-mujeres  {
     display: grid;
     grid-template-columns: 100% ;
-    background-color: rgb(186, 142, 150);
+    background-color: rgb(156, 97, 107);
     margin: 0px 0px;
     padding: 0px 0px;
 
@@ -10,23 +10,35 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin: 10px 10px;
         padding: auto;
     }
+
+    .descripcion-pagina {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+        padding: 30px;
+        background-color: rgba(221, 143, 122, 0.613);
+    }
+        
     .container-descuentos { 
         display: flex;
         justify-content: center;
-        margin: 5px 50px 0px;
+        align-items: center;
+        width: 89%;
+        
+        margin: 15px auto; 
+    
         img {
             display: flex;
             justify-content: center;
-            height: 350px;
-            width: auto;
-            margin: 15px 5px ;
             border-radius: 5px;
         }
 
     }
+    
     #productos { 
         margin: 30px 30px;
         padding: 20px;
@@ -81,17 +93,19 @@
             
         }
     }
-
+    
+    
     #publicidad-mujeres {
+        
         display: flex;
         justify-content: center;
             
         #carouselExampleAutoplaying { 
             display: flex;
             justify-content: center;
-            width: 60%;
-            height: 60%;
-    
+            width: 88%;
+            border: none;
+            
             .carousel {
                 width:80% ;
                 display: flex;
@@ -100,8 +114,7 @@
             }
     
             .carousel-item img { 
-                height: 500px;
-                width: 500px;
+                height: 700px;
                 display: flex;
                 justify-content: center;
                 border: 2px ride #5d5d5d;
@@ -109,6 +122,7 @@
         }
             
     }
+
     .container-seleccionadas {
         display: flex;
         justify-content: center;

@@ -1,7 +1,7 @@
 #grid-layout-ninos  {
     display: grid;
     grid-template-columns: 100% ;
-    background-color: rgba(75, 55, 146, 0.857);
+    background-color: rgb(134, 106, 236);
     margin: 0px 0px;
     padding: 0px 0px;
 
@@ -9,29 +9,38 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin: 10px 10px;
+       
         padding: auto;
     }
-        
-        .container-descuentos { 
+    .descripcion-pagina {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        height: auto;
+        margin: 10px 0px;
+        padding: 30px;
+        background-color: rgba(112, 155, 210, 0.613);
+    }
+        
+    .container-descuentos { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 15px auto; 
+        width: 90%;
+        height: auto;
     
-        img {
-            width: 900px;
+        .img-descuentos {
+        
             display: flex;
             justify-content: center;
-            border-radius: 5px;
+            width: 1680px;
         }
 
     }
     
     #productos { 
-        margin: 30px 30px;
+        margin: 30px 60px;
         padding: 20px;
         display: flex;
         justify-content: center;
@@ -42,10 +51,13 @@
             margin: 10px 0px;
             padding: auto;
             border: solid 01px rgb(19, 19, 19);
+        
+            
+        
 
             .card-img-top {
                 margin: 0px 0px;
-                padding: 0px;
+                padding: 0px 0px;
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -53,7 +65,8 @@
             }
 
             .card-body {
-                height: 200px;
+                height: 170px;
+            
                 .card-title {
                     text-align: start;
                     
@@ -61,7 +74,9 @@
                 .card-text {
                     font-size: 1.3em ;
                     text-align: start;
-                    font-weight: bold
+                    font-weight: bold;
+                    color: black;
+                
     
                 }
                 .btn-primary {
@@ -78,26 +93,28 @@
             
         }
     }
+    
 
     #publicidad-ninos {
+        
         display: flex;
         justify-content: center;
-        margin: 25px;
             
         #carouselExampleAutoplaying { 
             display: flex;
             justify-content: center;
-    
+            width: 93%;
+            border: none;
+            
             .carousel {
-                width:500px ;
+                width:80% ;
                 display: flex;
                 justify-content: center;
                     
             }
     
             .carousel-item img { 
-                height: 550px;
-                width: 300px;
+                height: 700px;
                 display: flex;
                 justify-content: center;
                 border: 2px ride #5d5d5d;

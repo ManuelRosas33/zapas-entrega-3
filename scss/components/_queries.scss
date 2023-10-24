@@ -1,14 +1,6 @@
 @media screen and  (max-width: 480px) {
-    .container-filtros {
-        display: grid;
-        grid-template-columns: 30% 70%;
-
-        .btn-primary-filtros {
-        
-        }
-
-    }
-
+    
+    
     .container-publicidad #publicidad #carouselExampleAutoplaying { 
             width: 90%;
             height: auto; }
@@ -24,11 +16,23 @@
         
     }
 
+    .navbar .navbar-collapse {
+        display: flex;
+        justify-content: start;
+    }
 
 
+    
+    
 }
 
 
 
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    .container-filtros {
+        .btn-primary-filtros {
+        margin:30px 30px;
+    }
+    }
+}

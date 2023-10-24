@@ -21,6 +21,7 @@ header {
 
         }
             .navbar-toggler{
+                
                 width: auto;
                 height: auto;
                 background-color: #d7d7d7; 
@@ -41,7 +42,7 @@ header {
             }
 
             .busqueda {
-                background-color: black;
+                width: 200px;
                 display: flex;
                 justify-content: center;
                 align-items: center;

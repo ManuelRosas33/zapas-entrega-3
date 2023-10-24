@@ -10,8 +10,17 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin: 10px 10px;
-        padding: auto;
+        
+    }
+
+    .descripcion-pagina {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+        padding: 30px;
+        background-color: #30773c;
     }
     
     #productos {  
@@ -34,6 +43,7 @@
         
 
             .card-img-top {
+                overflow: hidden;
                 margin: 0px 0px;
                 padding: 0px 0px;
                 &:hover {

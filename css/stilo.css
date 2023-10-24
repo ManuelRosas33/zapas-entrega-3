@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @media screen and (max-width: 480px) {
-  .container-filtros {
-    display: grid;
-    grid-template-columns: 30% 70%;
-  }
   .container-publicidad #publicidad #carouselExampleAutoplaying {
     width: 90%;
     height: auto;
@@ -13,6 +9,15 @@
   }
   .container-seleccionadas {
     padding: 0px 155px;
+  }
+  .navbar .navbar-collapse {
+    display: flex;
+    justify-content: start;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container-filtros .btn-primary-filtros {
+    margin: 30px 30px;
   }
 }
 /* Selecotor universal*/
@@ -32,23 +37,20 @@ h1 {
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  font-size: 2em;
-  margin: 55px 5px 30px;
+  font-size: 1.8em;
   padding: 0px 0px;
   font-weight: bold;
 }
 
 h3 {
+  color: rgb(192, 179, 179);
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bolder;
-  margin: 5px 100px 5px;
-  padding: 35px 5px 0px;
+  margin: 30px;
 }
 
 h4 {
@@ -56,7 +58,7 @@ h4 {
   justify-content: center;
   font-size: 1.5em;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(194, 194, 194);
   font-weight: bold;
 }
 
@@ -130,7 +132,7 @@ header .navbar-collapse .nav-link:hover {
   transform: scale(1.1);
 }
 header .busqueda {
-  background-color: black;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,8 +147,9 @@ header .busqueda {
 #publicidad #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  width: 60%;
-  height: 60%;
+  width: 88%;
+  height: 80%;
+  border: none;
 }
 #publicidad #carouselExampleAutoplaying .carousel {
   width: 100%;
@@ -154,8 +157,8 @@ header .busqueda {
   justify-content: center;
 }
 #publicidad #carouselExampleAutoplaying .carousel-item img {
-  height: 700px;
-  width: 300px;
+  width: 700px;
+  height: 800px;
   display: flex;
   justify-content: center;
   border: 2px ride #5d5d5d;
@@ -184,6 +187,7 @@ header .busqueda {
   border: solid 1px rgb(19, 19, 19);
 }
 .grid-layout #productos .card .card-img-top {
+  overflow: hidden;
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -222,6 +226,7 @@ header .busqueda {
   display: flex;
   justify-content: center;
   border-radius: 5px;
+  width: 1680px;
 }
 .grid-layout .container-seleccionadas {
   display: flex;
@@ -271,8 +276,15 @@ header .busqueda {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin: 10px 10px;
-  padding: auto;
+}
+#grid-layout-hombres .descripcion-pagina {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 30px;
+  background-color: #30773c;
 }
 #grid-layout-hombres #productos {
   display: flex;
@@ -290,6 +302,7 @@ header .busqueda {
   border: solid 1px rgb(19, 19, 19);
 }
 #grid-layout-hombres #productos .card .card-img-top {
+  overflow: hidden;
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -345,7 +358,7 @@ header .busqueda {
 #grid-layout-mujeres {
   display: grid;
   grid-template-columns: 100%;
-  background-color: rgb(186, 142, 150);
+  background-color: rgb(156, 97, 107);
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -353,20 +366,27 @@ header .busqueda {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin: 10px 10px;
   padding: auto;
+}
+#grid-layout-mujeres .descripcion-pagina {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 30px;
+  background-color: rgba(221, 143, 122, 0.613);
 }
 #grid-layout-mujeres .container-descuentos {
   display: flex;
   justify-content: center;
-  margin: 5px 50px 0px;
+  align-items: center;
+  width: 89%;
+  margin: 15px auto;
 }
 #grid-layout-mujeres .container-descuentos img {
   display: flex;
   justify-content: center;
-  height: 350px;
-  width: auto;
-  margin: 15px 5px;
   border-radius: 5px;
 }
 #grid-layout-mujeres #productos {
@@ -416,8 +436,8 @@ header .busqueda {
 #grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  width: 60%;
-  height: 60%;
+  width: 88%;
+  border: none;
 }
 #grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel {
   width: 80%;
@@ -425,8 +445,7 @@ header .busqueda {
   justify-content: center;
 }
 #grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
-  height: 500px;
-  width: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
   border: 2px ride #5d5d5d;
@@ -447,7 +466,7 @@ header .busqueda {
 #grid-layout-ninos {
   display: grid;
   grid-template-columns: 100%;
-  background-color: rgba(75, 55, 146, 0.857);
+  background-color: rgb(134, 106, 236);
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -455,24 +474,32 @@ header .busqueda {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin: 10px 10px;
   padding: auto;
+}
+#grid-layout-ninos .descripcion-pagina {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 30px;
+  background-color: rgba(112, 155, 210, 0.613);
 }
 #grid-layout-ninos .container-descuentos {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
   margin: 15px auto;
+  width: 90%;
+  height: auto;
 }
-#grid-layout-ninos .container-descuentos img {
-  width: 900px;
+#grid-layout-ninos .container-descuentos .img-descuentos {
   display: flex;
   justify-content: center;
-  border-radius: 5px;
+  width: 1680px;
 }
 #grid-layout-ninos #productos {
-  margin: 30px 30px;
+  margin: 30px 60px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -486,13 +513,13 @@ header .busqueda {
 }
 #grid-layout-ninos #productos .card .card-img-top {
   margin: 0px 0px;
-  padding: 0px;
+  padding: 0px 0px;
 }
 #grid-layout-ninos #productos .card .card-img-top:hover {
   transform: scale(1.1);
 }
 #grid-layout-ninos #productos .card .card-body {
-  height: 200px;
+  height: 170px;
 }
 #grid-layout-ninos #productos .card .card-body .card-title {
   text-align: start;
@@ -501,6 +528,7 @@ header .busqueda {
   font-size: 1.3em;
   text-align: start;
   font-weight: bold;
+  color: black;
 }
 #grid-layout-ninos #productos .card .card-body .btn-primary {
   border: solid black 0.1px;
@@ -513,20 +541,20 @@ header .busqueda {
 #grid-layout-ninos #publicidad-ninos {
   display: flex;
   justify-content: center;
-  margin: 25px;
 }
 #grid-layout-ninos #publicidad-ninos #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
+  width: 93%;
+  border: none;
 }
 #grid-layout-ninos #publicidad-ninos #carouselExampleAutoplaying .carousel {
-  width: 500px;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
 #grid-layout-ninos #publicidad-ninos #carouselExampleAutoplaying .carousel-item img {
-  height: 550px;
-  width: 300px;
+  height: 700px;
   display: flex;
   justify-content: center;
   border: 2px ride #5d5d5d;
@@ -556,7 +584,6 @@ header .busqueda {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin: 10px 10px;
   padding: auto;
 }
 #grid-layout-exclusivos #productos {
@@ -580,7 +607,7 @@ header .busqueda {
   transform: scale(1.1);
 }
 #grid-layout-exclusivos #productos .card .card-body {
-  height: 200px;
+  height: 170px;
 }
 #grid-layout-exclusivos #productos .card .card-body .card-title {
   text-align: start;
@@ -606,6 +633,7 @@ header .busqueda {
 #grid-layout-exclusivos #publicidad-exclusivos #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
+  border: none;
 }
 #grid-layout-exclusivos #publicidad-exclusivos #carouselExampleAutoplaying .carousel {
   width: 500px;
@@ -628,6 +656,7 @@ header .busqueda {
   padding: 25px;
 }
 .container-footer a {
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -646,32 +675,46 @@ header .busqueda {
 }
 
 .container-filtros {
-  align-items: center;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin: 20px;
+}
+.container-filtros .containercollapse {
+  padding: 0px;
+}
+.container-filtros .containercollapse #containerColappse {
+  display: flex;
+  justify-content: end;
+  margin: 30px;
+  padding: 0px;
+}
+.container-filtros #min-price {
+  width: 250px;
+}
+.container-filtros #max-price {
+  width: 250px;
 }
 .container-filtros .btn-primary-filtros {
-  margin: 30px 130px;
-  color: #0b0202;
-  background-color: #ffffff;
+  width: 130px;
+  margin: 30px 0px 0px 50px;
+  color: #ffffff;
+  background-color: rgba(150, 150, 150, 0.737254902);
 }
 .container-filtros .btn-primary-filtros:hover {
   border: none;
-  background-color: #e3e3e3;
+  background-color: #a8a8a8;
 }
-.container-filtros .precios .btn-primary-filtrar {
+.container-filtros .btn-primary-filtrar {
   margin: 10px 10px;
-  color: #0b0202;
-  background-color: #d5d2d2;
+  color: #ffffff;
+  background-color: rgba(150, 150, 150, 0.737254902);
 }
-.container-filtros .precios .btn-primary-filtrar:hover {
+.container-filtros .btn-primary-filtrar:hover {
   border: none;
-  background-color: #e3e3e3;
+  background-color: #a8a8a8;
 }
 
 @media screen and (max-width: 480px) {
-  .container-filtros {
-    display: grid;
-    grid-template-columns: 30% 70%;
-  }
   .container-publicidad #publicidad #carouselExampleAutoplaying {
     width: 90%;
     height: auto;
@@ -681,5 +724,14 @@ header .busqueda {
   }
   .container-seleccionadas {
     padding: 0px 155px;
+  }
+  .navbar .navbar-collapse {
+    display: flex;
+    justify-content: start;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container-filtros .btn-primary-filtros {
+    margin: 30px 30px;
   }
 }/*# sourceMappingURL=stilo.css.map */
