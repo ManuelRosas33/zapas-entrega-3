@@ -1,9 +1,22 @@
 @media screen and  (max-width: 480px) {
+    .container-filtros {
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+            .btn-primary-filtros {
+            margin:30px 30px;
+            }
+        
+    }
+    
     
     
     .container-publicidad #publicidad #carouselExampleAutoplaying { 
-            width: 90%;
-            height: auto; }
+        width: 90%;
+        height: auto; }
     
     .card {
         width: 500px;
@@ -12,6 +25,9 @@
 
         .container-seleccionadas {
             padding: 0px 155px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
             
         
     }
@@ -30,9 +46,5 @@
 
 
 @media screen and (max-width: 1200px) {
-    .container-filtros {
-        .btn-primary-filtros {
-        margin:30px 30px;
-    }
-    }
+    
 }

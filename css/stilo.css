@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @media screen and (max-width: 480px) {
+  .container-filtros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-filtros .btn-primary-filtros {
+    margin: 30px 30px;
+  }
   .container-publicidad #publicidad #carouselExampleAutoplaying {
     width: 90%;
     height: auto;
@@ -9,15 +18,13 @@
   }
   .container-seleccionadas {
     padding: 0px 155px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .navbar .navbar-collapse {
     display: flex;
     justify-content: start;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .container-filtros .btn-primary-filtros {
-    margin: 30px 30px;
   }
 }
 /* Selecotor universal*/
@@ -695,8 +702,9 @@ header .busqueda {
   width: 250px;
 }
 .container-filtros .btn-primary-filtros {
+  margin: 30px;
   width: 130px;
-  margin: 30px 0px 0px 50px;
+  margin: 0px;
   color: #ffffff;
   background-color: rgba(150, 150, 150, 0.737254902);
 }
@@ -715,6 +723,15 @@ header .busqueda {
 }
 
 @media screen and (max-width: 480px) {
+  .container-filtros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-filtros .btn-primary-filtros {
+    margin: 30px 30px;
+  }
   .container-publicidad #publicidad #carouselExampleAutoplaying {
     width: 90%;
     height: auto;
@@ -724,14 +741,12 @@ header .busqueda {
   }
   .container-seleccionadas {
     padding: 0px 155px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .navbar .navbar-collapse {
     display: flex;
     justify-content: start;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .container-filtros .btn-primary-filtros {
-    margin: 30px 30px;
   }
 }/*# sourceMappingURL=stilo.css.map */
