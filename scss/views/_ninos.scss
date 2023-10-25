@@ -123,17 +123,16 @@
     }
 
     .container-seleccionadas {
+        margin: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin:0px 0px;
+        
         img {
-            margin: 25px;
-            width: 200px;
+            padding: 15px 5px;
             &:hover {
                 transform: scale(1.2);
             }
-        
         }
     }
 

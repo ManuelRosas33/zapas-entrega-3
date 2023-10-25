@@ -1,4 +1,8 @@
+
+
 @media screen and  (max-width: 480px) {
+
+    /*MQ filtros*/
     .container-filtros {
         display: flex;  
         flex-direction: column;
@@ -11,40 +15,35 @@
             }
         
     }
-    
-    
-    
-    .container-publicidad #publicidad #carouselExampleAutoplaying { 
-        width: 90%;
-        height: auto; }
-    
-    .card {
-        width: 500px;
+
+    /*MQ publicidad Index*/
+    #publicidad {
+        #carouselExampleAutoplaying {
+            .carousel-item img {
+                width: 900px;
+                height: 200px;
+            }
+        }
     }
 
-
-        .container-seleccionadas {
-            padding: 0px 155px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            
-        
-    }
-
-    .navbar .navbar-collapse {
-        display: flex;
-        justify-content: start;
-    }
-
-
     
-    
+    /*MQ publicidad Mujeres*/
+    #publicidad-mujeres{
+        #carouselExampleAutoplaying {
+        .carousel-inner img {
+        width: 100px;
+        height: auto;
+        }  
+    }
+    } 
 }
 
 
 
 
-@media screen and (max-width: 1200px) {
     
-}
+    
+    
+    
+    
+    

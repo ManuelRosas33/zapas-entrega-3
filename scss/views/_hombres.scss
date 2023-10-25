@@ -102,20 +102,16 @@
     /*marcas seleccionadas*/
 
     .container-seleccionadas {
+        margin: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         
         img {
-            
-        
             padding: 15px 5px;
-            width: 200px;
             &:hover {
                 transform: scale(1.2);
             }
-        
         }
-    
     }
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @media screen and (max-width: 480px) {
+  /*MQ filtros*/
   .container-filtros {
     display: flex;
     flex-direction: column;
@@ -9,22 +10,15 @@
   .container-filtros .btn-primary-filtros {
     margin: 30px 30px;
   }
-  .container-publicidad #publicidad #carouselExampleAutoplaying {
-    width: 90%;
+  /*MQ publicidad Index*/
+  #publicidad #carouselExampleAutoplaying .carousel-item img {
+    width: 900px;
+    height: 200px;
+  }
+  /*MQ publicidad Mujeres*/
+  #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
+    width: 100px;
     height: auto;
-  }
-  .card {
-    width: 500px;
-  }
-  .container-seleccionadas {
-    padding: 0px 155px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-  .navbar .navbar-collapse {
-    display: flex;
-    justify-content: start;
   }
 }
 /* Selecotor universal*/
@@ -120,6 +114,7 @@ header .navbar .container-fluid {
   margin-left: 25px;
 }
 header .navbar .navbar-toggler {
+  margin: 10px;
   width: auto;
   height: auto;
   background-color: #d7d7d7;
@@ -139,7 +134,7 @@ header .navbar-collapse .nav-link:hover {
   transform: scale(1.1);
 }
 header .busqueda {
-  width: 200px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,7 +149,7 @@ header .busqueda {
 #publicidad #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  width: 88%;
+  width: 92%;
   height: 80%;
   border: none;
 }
@@ -164,8 +159,8 @@ header .busqueda {
   justify-content: center;
 }
 #publicidad #carouselExampleAutoplaying .carousel-item img {
-  width: 700px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   display: flex;
   justify-content: center;
   border: 2px ride #5d5d5d;
@@ -236,13 +231,13 @@ header .busqueda {
   width: 1680px;
 }
 .grid-layout .container-seleccionadas {
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .grid-layout .container-seleccionadas img {
   padding: 15px 5px;
-  width: 200px;
 }
 .grid-layout .container-seleccionadas img:hover {
   transform: scale(1.2);
@@ -350,13 +345,13 @@ header .busqueda {
   border-radius: 5px;
 }
 #grid-layout-hombres .container-seleccionadas {
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #grid-layout-hombres .container-seleccionadas img {
   padding: 15px 5px;
-  width: 200px;
 }
 #grid-layout-hombres .container-seleccionadas img:hover {
   transform: scale(1.2);
@@ -389,6 +384,7 @@ header .busqueda {
   justify-content: center;
   align-items: center;
   width: 89%;
+  border: none;
   margin: 15px auto;
 }
 #grid-layout-mujeres .container-descuentos img {
@@ -397,7 +393,7 @@ header .busqueda {
   border-radius: 5px;
 }
 #grid-layout-mujeres #productos {
-  margin: 30px 30px;
+  margin: 0px 30px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -443,28 +439,24 @@ header .busqueda {
 #grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  width: 88%;
-  border: none;
+  width: 93%;
+  height: 80%;
 }
-#grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-}
-#grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
-  height: 700px;
+#grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
+  height: 600px;
+  height: 600px;
   display: flex;
   justify-content: center;
   border: 2px ride #5d5d5d;
 }
 #grid-layout-mujeres .container-seleccionadas {
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #grid-layout-mujeres .container-seleccionadas img {
   padding: 15px 5px;
-  width: 200px;
 }
 #grid-layout-mujeres .container-seleccionadas img:hover {
   transform: scale(1.2);
@@ -567,14 +559,13 @@ header .busqueda {
   border: 2px ride #5d5d5d;
 }
 #grid-layout-ninos .container-seleccionadas {
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px;
 }
 #grid-layout-ninos .container-seleccionadas img {
-  margin: 25px;
-  width: 200px;
+  padding: 15px 5px;
 }
 #grid-layout-ninos .container-seleccionadas img:hover {
   transform: scale(1.2);
@@ -723,6 +714,7 @@ header .busqueda {
 }
 
 @media screen and (max-width: 480px) {
+  /*MQ filtros*/
   .container-filtros {
     display: flex;
     flex-direction: column;
@@ -732,21 +724,14 @@ header .busqueda {
   .container-filtros .btn-primary-filtros {
     margin: 30px 30px;
   }
-  .container-publicidad #publicidad #carouselExampleAutoplaying {
-    width: 90%;
+  /*MQ publicidad Index*/
+  #publicidad #carouselExampleAutoplaying .carousel-item img {
+    width: 900px;
+    height: 200px;
+  }
+  /*MQ publicidad Mujeres*/
+  #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
+    width: 100px;
     height: auto;
-  }
-  .card {
-    width: 500px;
-  }
-  .container-seleccionadas {
-    padding: 0px 155px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-  .navbar .navbar-collapse {
-    display: flex;
-    justify-content: start;
   }
 }/*# sourceMappingURL=stilo.css.map */

@@ -28,6 +28,7 @@
         justify-content: center;
         align-items: center;
         width: 89%;
+        border: none;
         
         margin: 15px auto; 
     
@@ -40,7 +41,7 @@
     }
     
     #productos { 
-        margin: 30px 30px;
+        margin: 0px 30px;
         padding: 20px;
         display: flex;
         justify-content: center;
@@ -96,25 +97,21 @@
     
     
     #publicidad-mujeres {
-        
         display: flex;
         justify-content: center;
             
-        #carouselExampleAutoplaying { 
+        #carouselExampleAutoplaying{ 
             display: flex;
             justify-content: center;
-            width: 88%;
-            border: none;
+            width: 93%;
+            height: 80%;
             
-            .carousel {
-                width:80% ;
-                display: flex;
-                justify-content: center;
-                    
-            }
+            
+            
     
-            .carousel-item img { 
-                height: 700px;
+            .carousel-inner img { 
+                height: 600px;
+                height: 600px;
                 display: flex;
                 justify-content: center;
                 border: 2px ride #5d5d5d;
@@ -124,21 +121,17 @@
     }
 
     .container-seleccionadas {
+        margin: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         
         img {
-            
-            
             padding: 15px 5px;
-            width: 200px;
             &:hover {
                 transform: scale(1.2);
             }
-        
         }
-    
     }
 
     
