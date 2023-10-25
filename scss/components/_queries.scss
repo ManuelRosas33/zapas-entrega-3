@@ -1,6 +1,62 @@
 
+@media screen and  (max-width: 768px) {
 
+    /* header*/
+
+    header {
+        .navbar-collapse{
+            display: flex;
+            justify-content: start;
+        }
+
+        .busqueda {
+            display: flex;
+                justify-content: center;
+            .form-control {
+                display: flex;
+                    justify-content: center;
+                width: 250px;
+                .search-field {
+                    display: flex;
+                    justify-content: center;
+                    
+                }
+
+            }
+            
+            
+        }
+    }
+
+}
 @media screen and  (max-width: 480px) {
+
+    /* header*/
+
+    header {
+        .navbar-collapse{
+            display: flex;
+            justify-content: start;
+        }
+
+        .busqueda {
+            display: flex;
+                justify-content: center;
+            .form-control {
+                display: flex;
+                    justify-content: center;
+                width: 150px;
+                .search-field {
+                    display: flex;
+                    justify-content: center;
+                    
+                }
+
+            }
+            
+            
+        }
+    }
 
     /*MQ filtros*/
     .container-filtros {
@@ -14,6 +70,9 @@
             margin:30px 30px;
             }
         
+            .filtros-generales {
+                width: 0%;
+            }
     }
 
     /*MQ publicidad Index*/
@@ -36,7 +95,20 @@
         }  
     }
     } 
+
+    /*Descuentos niños*/
+
+    .container-descuentos-niños {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        .img-descuentos {
+        width: 200px;
+        }
+
+    }
 }
+
 
 
 

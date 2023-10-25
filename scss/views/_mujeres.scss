@@ -97,25 +97,36 @@
     
     
     .container-publicidad-mujeres{
+       
         display: flex;
         justify-content: center;
-        margin: 30px;
+        width: 100%;
 
         #publicidad-mujeres {
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 90%;
 
             #carouselExampleAutoplaying {
                 display: flex;
                 justify-content: center;
-                align-items: center;
-
-                .carrousel-item img {
+                width: 89%;
+                height: 80%;
+                border: none;
+                .carousel {
+                    width:100% ;
                     display: flex;
                     justify-content: center;
+                        
+                }
+
+                .carrousel-item img {
                     width: 600px;
                     height: 600px;
+                    display: flex;
+                    justify-content: center;
+                    border:none;
 
                 }
 

@@ -1,5 +1,44 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@media screen and (max-width: 768px) {
+  /* header*/
+  header .navbar-collapse {
+    display: flex;
+    justify-content: start;
+  }
+  header .busqueda {
+    display: flex;
+    justify-content: center;
+  }
+  header .busqueda .form-control {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+  }
+  header .busqueda .form-control .search-field {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 480px) {
+  /* header*/
+  header .navbar-collapse {
+    display: flex;
+    justify-content: start;
+  }
+  header .busqueda {
+    display: flex;
+    justify-content: center;
+  }
+  header .busqueda .form-control {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+  }
+  header .busqueda .form-control .search-field {
+    display: flex;
+    justify-content: center;
+  }
   /*MQ filtros*/
   .container-filtros {
     display: flex;
@@ -10,6 +49,9 @@
   .container-filtros .btn-primary-filtros {
     margin: 30px 30px;
   }
+  .container-filtros .filtros-generales {
+    width: 0%;
+  }
   /*MQ publicidad Index*/
   #publicidad #carouselExampleAutoplaying .carousel-item img {
     width: 900px;
@@ -19,6 +61,15 @@
   #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
     width: 90%;
     height: 200px;
+  }
+  /*Descuentos niños*/
+  .container-descuentos-niños {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .container-descuentos-niños .img-descuentos {
+    width: 200px;
   }
 }
 /* Selecotor universal*/
@@ -33,7 +84,8 @@ h1 {
   justify-content: center;
   text-align: center;
   background-color: rgb(235, 235, 235);
-  margin: 15px 20px;
+  margin: 0px;
+  padding: 0px;
   border-radius: 5px;
 }
 
@@ -134,44 +186,48 @@ header .navbar-collapse .nav-link:hover {
   transform: scale(1.1);
 }
 header .busqueda {
-  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 100px;
+}
+header .busqueda .form-control {
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
 }
 
 /* Publicidad*/
-#publicidad {
-  display: flex;
-  justify-content: center;
-}
-#publicidad #carouselExampleAutoplaying {
-  display: flex;
-  justify-content: center;
-  width: 92%;
-  height: 80%;
-  border: none;
-}
-#publicidad #carouselExampleAutoplaying .carousel {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-#publicidad #carouselExampleAutoplaying .carousel-item img {
-  width: 600px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  border: 2px ride #5d5d5d;
-}
-
 .grid-layout {
   background-color: rgb(113, 37, 37);
   margin: 0px 0px;
   padding: 0px 0px;
   /* descuento*/
   /*marcas seleccionadas*/
+}
+.grid-layout #publicidad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.grid-layout #publicidad #carouselExampleAutoplaying {
+  display: flex;
+  justify-content: center;
+  width: 89%;
+  height: 80%;
+  border: none;
+}
+.grid-layout #publicidad #carouselExampleAutoplaying .carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.grid-layout #publicidad #carouselExampleAutoplaying .carousel-item img {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  border: none;
 }
 .grid-layout #productos {
   display: flex;
@@ -435,23 +491,32 @@ header .busqueda {
 #grid-layout-mujeres .container-publicidad-mujeres {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  width: 100%;
 }
 #grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 #grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 89%;
+  height: 80%;
+  border: none;
 }
-#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carrousel-item img {
+#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel {
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carrousel-item img {
   width: 600px;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  border: none;
 }
 #grid-layout-mujeres .container-seleccionadas {
   margin: 30px;
@@ -492,13 +557,14 @@ header .busqueda {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px auto;
   width: 90%;
   height: auto;
+  margin: 25px auto;
 }
-#grid-layout-ninos .container-descuentos .img-descuentos {
+#grid-layout-ninos .container-descuentos img {
   display: flex;
   justify-content: center;
+  border-radius: 5px;
   width: 1680px;
 }
 #grid-layout-ninos #productos {
@@ -658,6 +724,10 @@ header .busqueda {
   padding: 25px;
 }
 .container-footer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -681,12 +751,14 @@ header .busqueda {
   grid-template-columns: 10% 90%;
   margin: 20px;
 }
-.container-filtros .containercollapse {
+.container-filtros .container-collapse {
   padding: 0px;
 }
-.container-filtros .containercollapse #containerColappse {
+.container-filtros .container-collapse #containerColappse {
+  width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  flex-direction: column;
   margin: 30px;
   padding: 0px;
 }
@@ -717,7 +789,45 @@ header .busqueda {
   background-color: #a8a8a8;
 }
 
+@media screen and (max-width: 768px) {
+  /* header*/
+  header .navbar-collapse {
+    display: flex;
+    justify-content: start;
+  }
+  header .busqueda {
+    display: flex;
+    justify-content: center;
+  }
+  header .busqueda .form-control {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+  }
+  header .busqueda .form-control .search-field {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 480px) {
+  /* header*/
+  header .navbar-collapse {
+    display: flex;
+    justify-content: start;
+  }
+  header .busqueda {
+    display: flex;
+    justify-content: center;
+  }
+  header .busqueda .form-control {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+  }
+  header .busqueda .form-control .search-field {
+    display: flex;
+    justify-content: center;
+  }
   /*MQ filtros*/
   .container-filtros {
     display: flex;
@@ -728,6 +838,9 @@ header .busqueda {
   .container-filtros .btn-primary-filtros {
     margin: 30px 30px;
   }
+  .container-filtros .filtros-generales {
+    width: 0%;
+  }
   /*MQ publicidad Index*/
   #publicidad #carouselExampleAutoplaying .carousel-item img {
     width: 900px;
@@ -737,5 +850,14 @@ header .busqueda {
   #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
     width: 90%;
     height: 200px;
+  }
+  /*Descuentos niños*/
+  .container-descuentos-niños {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .container-descuentos-niños .img-descuentos {
+    width: 200px;
   }
 }/*# sourceMappingURL=stilo.css.map */

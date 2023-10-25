@@ -25,14 +25,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 15px auto; 
         width: 90%;
         height: auto;
+        margin: 25px auto; 
     
-        .img-descuentos {
-        
+        img {
             display: flex;
             justify-content: center;
+            border-radius: 5px;
             width: 1680px;
         }
 

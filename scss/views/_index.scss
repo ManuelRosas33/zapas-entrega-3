@@ -3,40 +3,44 @@
 
 
 
-#publicidad {
-    display: flex;
-    justify-content: center;
-        
-    #carouselExampleAutoplaying { 
-        display: flex;
-        justify-content: center;
-        width: 92%;
-        height: 80%;
-        border: none;
 
-        .carousel {
-            width:100% ;
-            display: flex;
-            justify-content: center;
-                
-        }
-
-        .carousel-item img { 
-            width: 600px;
-            height: 600px;
-            display: flex;
-            justify-content: center;
-            border: 2px ride #5d5d5d;
-        }
-    }
-        
-}
 .grid-layout {
-    
     background-color: rgb(113, 37, 37);
     margin: 0px 0px;
     padding:0px 0px;
     
+    #publicidad {
+        
+        display: flex;
+        justify-content: center;
+        width: 100%;
+            
+        #carouselExampleAutoplaying { 
+            display: flex;
+            justify-content: center;
+            width: 89%;
+            height: 80%;
+            border: none;
+    
+            .carousel {
+                width:100% ;
+                display: flex;
+                justify-content: center;
+                    
+            }
+    
+            .carousel-item img { 
+                width: 600px;
+                height: 600px;
+                display: flex;
+                justify-content: center;
+                border:none;
+            }
+        }
+            
+    }
+    
+
 
     #productos { 
         display: flex;
