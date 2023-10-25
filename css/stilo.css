@@ -17,8 +17,8 @@
   }
   /*MQ publicidad Mujeres*/
   #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
-    width: 100px;
-    height: auto;
+    width: 90%;
+    height: 200px;
   }
 }
 /* Selecotor universal*/
@@ -432,22 +432,26 @@ header .busqueda {
   border: none;
   background-color: #c1bebe;
 }
-#grid-layout-mujeres #publicidad-mujeres {
+#grid-layout-mujeres .container-publicidad-mujeres {
   display: flex;
   justify-content: center;
+  margin: 30px;
 }
-#grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
+#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres {
   display: flex;
   justify-content: center;
-  width: 93%;
-  height: 80%;
+  align-items: center;
 }
-#grid-layout-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
-  height: 600px;
-  height: 600px;
+#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  border: 2px ride #5d5d5d;
+  align-items: center;
+}
+#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carrousel-item img {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
 }
 #grid-layout-mujeres .container-seleccionadas {
   margin: 30px;
@@ -731,7 +735,7 @@ header .busqueda {
   }
   /*MQ publicidad Mujeres*/
   #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
-    width: 100px;
-    height: auto;
+    width: 90%;
+    height: 200px;
   }
 }/*# sourceMappingURL=stilo.css.map */
