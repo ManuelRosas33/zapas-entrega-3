@@ -1,5 +1,37 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@media screen and (max-width: 1200px) {
+  .container-publicidad-mujeres {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: auto;
+    border: none;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+}
 @media screen and (max-width: 768px) {
   /* header*/
   header .navbar-collapse {
@@ -58,8 +90,8 @@
     height: 200px;
   }
   /*MQ publicidad Mujeres*/
-  #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
-    width: 90%;
+  #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
+    width: 900px;
     height: 200px;
   }
   /*Descuentos niños*/
@@ -198,36 +230,38 @@ header .busqueda .form-control {
 }
 
 /* Publicidad*/
-.grid-layout {
-  background-color: rgb(113, 37, 37);
-  margin: 0px 0px;
-  padding: 0px 0px;
-  /* descuento*/
-  /*marcas seleccionadas*/
-}
-.grid-layout #publicidad {
+#publicidad {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.grid-layout #publicidad #carouselExampleAutoplaying {
+#publicidad #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
   width: 89%;
   height: 80%;
   border: none;
 }
-.grid-layout #publicidad #carouselExampleAutoplaying .carousel {
+#publicidad #carouselExampleAutoplaying .carousel {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.grid-layout #publicidad #carouselExampleAutoplaying .carousel-item img {
+#publicidad #carouselExampleAutoplaying .carousel-item img {
   width: 600px;
   height: 600px;
   display: flex;
   justify-content: center;
   border: none;
+}
+
+.grid-layout {
+  background-color: rgb(113, 37, 37);
+  margin: 0px 0px;
+  padding: 0px 0px;
+  /* descuento*/
+  /*marcas seleccionadas*/
 }
 .grid-layout #productos {
   display: flex;
@@ -502,8 +536,8 @@ header .busqueda .form-control {
 #grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
   display: flex;
   justify-content: center;
-  width: 89%;
-  height: 80%;
+  width: 98%;
+  height: auto;
   border: none;
 }
 #grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel {
@@ -511,9 +545,9 @@ header .busqueda .form-control {
   display: flex;
   justify-content: center;
 }
-#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carrousel-item img {
-  width: 600px;
-  height: 600px;
+#grid-layout-mujeres .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
+  width: 700px;
+  height: auto;
   display: flex;
   justify-content: center;
   border: none;
@@ -789,6 +823,38 @@ header .busqueda .form-control {
   background-color: #a8a8a8;
 }
 
+@media screen and (max-width: 1200px) {
+  .container-publicidad-mujeres {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: auto;
+    border: none;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container-publicidad-mujeres #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+}
 @media screen and (max-width: 768px) {
   /* header*/
   header .navbar-collapse {
@@ -847,8 +913,8 @@ header .busqueda .form-control {
     height: 200px;
   }
   /*MQ publicidad Mujeres*/
-  #publicidad-mujeres #carouselExampleAutoplaying .carousel-inner img {
-    width: 90%;
+  #publicidad-mujeres #carouselExampleAutoplaying .carousel-item img {
+    width: 900px;
     height: 200px;
   }
   /*Descuentos niños*/

@@ -4,13 +4,9 @@
 
 
 
-.grid-layout {
-    background-color: rgb(113, 37, 37);
-    margin: 0px 0px;
-    padding:0px 0px;
-    
+
     #publicidad {
-        
+        margin-top: 40px;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -41,7 +37,11 @@
     }
     
 
-
+.grid-layout {
+        background-color: rgb(113, 37, 37);
+        margin: 0px 0px;
+        padding:0px 0px;
+        
     #productos { 
         display: flex;
         justify-content: center;

@@ -97,7 +97,7 @@
     
     
     .container-publicidad-mujeres{
-       
+    
         display: flex;
         justify-content: center;
         width: 100%;
@@ -111,8 +111,9 @@
             #carouselExampleAutoplaying {
                 display: flex;
                 justify-content: center;
-                width: 89%;
-                height: 80%;
+                width: 98%;
+                height: auto;
+                
                 border: none;
                 .carousel {
                     width:100% ;
@@ -121,9 +122,9 @@
                         
                 }
 
-                .carrousel-item img {
-                    width: 600px;
-                    height: 600px;
+                .carousel-item img {
+                    width: 700px;
+                    height: auto;
                     display: flex;
                     justify-content: center;
                     border:none;
