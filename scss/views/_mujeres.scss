@@ -97,43 +97,35 @@
     
     
     .container-publicidad-mujeres{
-    
-        display: flex;
-        justify-content: center;
-        width: 100%;
-
-        #publicidad-mujeres {
+        #publicidad {
+            margin-top: 10px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            width: 90%;
-
-            #carouselExampleAutoplaying {
+            width: 100%;
+                
+            #carouselExampleAutoplaying { 
                 display: flex;
                 justify-content: center;
-                width: 98%;
-                height: auto;
-                
+                width: 89%;
+                height: 80%;
                 border: none;
+        
                 .carousel {
                     width:100% ;
                     display: flex;
                     justify-content: center;
                         
                 }
-
-                .carousel-item img {
-                    width: 700px;
-                    height: auto;
+        
+                .carousel-item img { 
+                    width: 600px;
+                    
                     display: flex;
                     justify-content: center;
                     border:none;
-
                 }
-
             }
-        }
-            
+        }        
     }
     .container-seleccionadas {
         margin: 30px;

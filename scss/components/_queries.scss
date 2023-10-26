@@ -1,45 +1,5 @@
 @media screen and  (max-width: 1200px) {
 
-    .container-publicidad-mujeres{
-    
-        display: flex;
-        justify-content: center;
-        width: 100%;
-
-        #publicidad-mujeres {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 90%;
-
-            #carouselExampleAutoplaying {
-                display: flex;
-                justify-content: center;
-                width: 98%;
-                height: auto;
-                
-                border: none;
-                .carousel {
-                    width:100% ;
-                    display: flex;
-                    justify-content: center;
-                        
-                }
-
-                .carousel-item img {
-                    width: 700px;
-                    height: 600px;
-                    display: flex;
-                    justify-content: center;
-                    border:none;
-
-                }
-
-            }
-        }
-            
-    }
-
 }
 
 @media screen and  (max-width: 768px) {
@@ -121,6 +81,13 @@
     /*MQ publicidad Index*/
     #publicidad {
         #carouselExampleAutoplaying {
+            .container-inner {
+                .carousel-item img {
+                    width: 900px;
+                    height: 200px;
+                }
+
+            }
             .carousel-item img {
                 width: 900px;
                 height: 200px;
@@ -130,14 +97,8 @@
 
     
     /*MQ publicidad Mujeres*/
-    #publicidad-mujeres{
-        #carouselExampleAutoplaying {
-        .carousel-item img {
-        width: 900px;
-        height: 200px;
-        }  
-    }
-    } 
+
+    
 
     /*Descuentos niños*/
 

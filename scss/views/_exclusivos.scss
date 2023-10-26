@@ -12,6 +12,15 @@
         align-items: center;
         padding: auto;
     }
+    .descripcion-pagina {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+        padding: 20px;
+        background-color: rgba(180, 122, 221, 0.613);
+    }
 
     #productos { 
         margin: 30px 30px;
@@ -60,6 +69,14 @@
             }
             
         }
+    }
+
+    .video-publicitario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 700px;
     }
 
     #publicidad-exclusivos {
