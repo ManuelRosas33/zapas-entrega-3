@@ -22,6 +22,13 @@
 }
 @media screen and (max-width: 480px) {
   /* header*/
+  header .container-fluid {
+    margin: 0px 0px 0px 0px;
+  }
+  header .container-fluid .navbar-brand img {
+    width: 110px;
+    margin: 5px;
+  }
   header .navbar-collapse {
     display: flex;
     justify-content: start;
@@ -29,6 +36,8 @@
   header .busqueda {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+    margin-left: 25px;
   }
   header .busqueda .form-control {
     display: flex;
@@ -51,6 +60,10 @@
   }
   .container-filtros .filtros-generales {
     width: 0%;
+  }
+  /*Descripcion paginas*/
+  h2 {
+    font-size: 1.3em;
   }
   /*MQ publicidad Index*/
   #publicidad #carouselExampleAutoplaying .container-inner .carousel-item img {
@@ -162,8 +175,7 @@ header .navbar .navbar-brand img:hover {
   transform: scale(1.1);
 }
 header .navbar .container-fluid {
-  margin-right: 25px;
-  margin-left: 25px;
+  margin: 15px 15px;
 }
 header .navbar .navbar-toggler {
   margin: 10px;
@@ -186,12 +198,12 @@ header .navbar-collapse .nav-link:hover {
   transform: scale(1.1);
 }
 header .busqueda {
+  margin: 0px 0px 0px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 header .busqueda .form-control {
-  margin-left: 150px;
   display: flex;
   justify-content: center;
   width: 300px;
@@ -692,6 +704,7 @@ header .busqueda .form-control {
   font-size: 1.3em;
   text-align: start;
   font-weight: bold;
+  color: black;
 }
 #grid-layout-exclusivos #productos .card .card-body .btn-primary {
   border: solid black 0.1px;
@@ -826,6 +839,13 @@ header .busqueda .form-control {
 }
 @media screen and (max-width: 480px) {
   /* header*/
+  header .container-fluid {
+    margin: 0px 0px 0px 0px;
+  }
+  header .container-fluid .navbar-brand img {
+    width: 110px;
+    margin: 5px;
+  }
   header .navbar-collapse {
     display: flex;
     justify-content: start;
@@ -833,6 +853,8 @@ header .busqueda .form-control {
   header .busqueda {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+    margin-left: 25px;
   }
   header .busqueda .form-control {
     display: flex;
@@ -855,6 +877,10 @@ header .busqueda .form-control {
   }
   .container-filtros .filtros-generales {
     width: 0%;
+  }
+  /*Descripcion paginas*/
+  h2 {
+    font-size: 1.3em;
   }
   /*MQ publicidad Index*/
   #publicidad #carouselExampleAutoplaying .container-inner .carousel-item img {

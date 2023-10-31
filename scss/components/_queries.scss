@@ -7,6 +7,7 @@
     /* header*/
 
     header {
+
         .navbar-collapse{
             display: flex;
             justify-content: start;
@@ -37,6 +38,17 @@
     /* header*/
 
     header {
+        .container-fluid {
+            margin: 0px 0px 0px 0px; 
+            
+
+            .navbar-brand img {
+                width: 110px;
+                margin: 5px; 
+            }
+
+        }
+
         .navbar-collapse{
             display: flex;
             justify-content: start;
@@ -44,20 +56,18 @@
 
         .busqueda {
             display: flex;
-                justify-content: center;
+            justify-content: center;
+            margin-top: 15px;
+            margin-left: 25px;
             .form-control {
                 display: flex;
-                    justify-content: center;
+                justify-content: center;
                 width: 150px;
                 .search-field {
                     display: flex;
-                    justify-content: center;
-                    
+                    justify-content: center;         
                 }
-
-            }
-            
-            
+            }    
         }
     }
 
@@ -77,6 +87,12 @@
                 width: 0%;
             }
     }
+
+    /*Descripcion paginas*/
+    h2 {
+        font-size: 1.3em;
+    }
+
 
     /*MQ publicidad Index*/
     #publicidad {

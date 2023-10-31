@@ -69,15 +69,15 @@
 
     <!--Empieza filtros -->
     <section class="container-filtros">
+        
 
+        <button class="btn btn-primary-filtros" data-bs-toggle="collapse" data-bs-target="#containerCollapse">
+            Seleccion por filtros
+        </button>
 
-            <button class="btn btn-primary-filtros" data-bs-toggle="collapse" data-bs-target="#containerCollapse">
-                SELECCION POR FILTROS
-            </button>
-
-            <div class="container collapse" id="containerCollapse">
-                
-                <select name="producto-generales" > 
+        <div class="container collapse" id="containerCollapse">
+            <div  style="justify-content: center; margin-left: 20px;">
+                <select name="producto-generales"  > 
                     <option value="zapato1">Mas relevantes</option>
                     <option value="zapato2">Mas vendidos</option>
                     <option value="zapato3">Precio mas alto</option>
@@ -85,6 +85,7 @@
                 </select>
 
                 <select name="producto-direferentes">
+                    <option value="producto">Zapatillas</option>
                     <option value="producto">Busos</option>
                     <option value="producto">Pantalones</option>
                     <option value="producto">Medias</option>
@@ -94,7 +95,7 @@
                 <select name="producto-genero">
                     <option value="generos">Hombre</option>
                     <option value="generos">Mujer</option>
-                    <option value="generos">Nuño</option>
+                    <option value="generos">Niño</option>
                     <option value="generos">Unisex</option>
                 </select>
 
@@ -114,28 +115,30 @@
                     <option value="talla">Talla 38</option>
                     <option value="talla">Talla 39</option>
                     <option value="talla">Talla 40</option>
+                    <option value="talla">Talla 41</option>
+                    <option value="talla">Talla 42</option>
                 </select>
-
-                <div class="precios row mt-4">
-                    <div class="col-md-4">
-                        <label for="min-price">Precio Mínimo:</label>
-                        <input type="number" id="min-price" class="form-control">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="max-price">Precio Máximo:</label>
-                        <input type="number" id="max-price" class="form-control">
-                    </div>
-                    <div class="col-md-4">
-                        <button class="btn btn-primary-filtrar btn-block" id="filter-btn">FILTRAR</button>
-                    </div>
+            </div>
+            <div class="precios row " style="justify-content: center; margin-left: 20px;">
+                <div class="col-md-4">
+                    <label for="min-price">Precio Mínimo:</label>
+                    <input type="number" id="min-price" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="max-price">Precio Máximo:</label>
+                    <input type="number" id="max-price" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary-filtrar btn-block" id="filter-btn">FILTRAR</button>
                 </div>
             </div>
+        </div>
 
-    </section>
+</section>
     <!--Termina filtros-->
     <!-- Dexripcion pagina-->
 
-    <h2 class="descripcion-pagina"> Encuentra la mejor seleccion de zapatillas para hombre acá! 
+    <h2 class="descripcion-pagina"> Encuentra la mejor seleccion de zapatillas para mujer acá! 
         Utiliza los codigos de descuento disponibles que tenemos y suscribete a nuestra pagina para tener la informacion siempre contigo.</h2>
     <!--termina descripcion-->
     

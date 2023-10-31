@@ -15,8 +15,9 @@ header {
             &:hover {transform: scale(1.1);} 
         }
         .container-fluid {
-            margin-right: 25px;
-            margin-left: 25px;
+            margin: 15px 15px;
+            
+            
         
 
         }
@@ -42,12 +43,12 @@ header {
             }
 
             .busqueda {
-            
+                margin:0px 0px 0px 100px ;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 .form-control {
-                    margin-left: 150px;
+                    
                     display: flex;
                     justify-content: center;
                     width: 300px;

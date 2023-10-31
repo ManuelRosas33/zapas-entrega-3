@@ -74,13 +74,13 @@
         <section class="container-filtros">
         
 
-                <button class="btn btn-primary-filtros" data-bs-toggle="collapse" data-bs-target="#containerCollapse">
-                    SELECCION POR FILTROS
-                </button>
+            <button class="btn btn-primary-filtros" data-bs-toggle="collapse" data-bs-target="#containerCollapse">
+                Seleccion por filtros
+            </button>
 
-                <div class="container collapse p-0" id="containerCollapse">
-                    
-                    <select name="producto-generales" > 
+            <div class="container collapse" id="containerCollapse">
+                <div  style="justify-content: center; margin-left: 20px;">
+                    <select name="producto-generales"  > 
                         <option value="zapato1">Mas relevantes</option>
                         <option value="zapato2">Mas vendidos</option>
                         <option value="zapato3">Precio mas alto</option>
@@ -88,6 +88,7 @@
                     </select>
 
                     <select name="producto-direferentes">
+                        <option value="producto">Zapatillas</option>
                         <option value="producto">Busos</option>
                         <option value="producto">Pantalones</option>
                         <option value="producto">Medias</option>
@@ -97,7 +98,7 @@
                     <select name="producto-genero">
                         <option value="generos">Hombre</option>
                         <option value="generos">Mujer</option>
-                        <option value="generos">Nuño</option>
+                        <option value="generos">Niño</option>
                         <option value="generos">Unisex</option>
                     </select>
 
@@ -111,36 +112,39 @@
                     </select>
 
                     <select name="producto-talle">
-                        <option value="talla">Talla 40 </option>
-                        <option value="talla">Talla 41 </option>
+                        <option value="talla">Talla 36</option>
+                        <option value="talla">Talla 37</option>
+                        <option value="talla">Talla 38</option>
+                        <option value="talla">Talla 39</option>
+                        <option value="talla">Talla 40</option>
+                        <option value="talla">Talla 41</option>
                         <option value="talla">Talla 42</option>
                         <option value="talla">Talla 43</option>
                         <option value="talla">Talla 44</option>
                         <option value="talla">Talla 45</option>
                     </select>
-
-                    <div class="precios row mt-4">
-                        <div class="col-md-4">
-                            <label for="min-price">Precio Mínimo:</label>
-                            <input type="number" id="min-price" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="max-price">Precio Máximo:</label>
-                            <input type="number" id="max-price" class="form-control">
-                        </div>
-                        <div class="col-md-4">
-                            <button class="btn btn-primary-filtrar btn-block" id="filter-btn">Filtrar</button>
-                        </div>
+                </div>
+                <div class="precios row " style="justify-content: center; margin-left: 20px;">
+                    <div class="col-md-4">
+                        <label for="min-price">Precio Mínimo:</label>
+                        <input type="number" id="min-price" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="max-price">Precio Máximo:</label>
+                        <input type="number" id="max-price" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary-filtrar btn-block" id="filter-btn">FILTRAR</button>
                     </div>
                 </div>
+            </div>
 
-        </section>
+    </section>
         <!--Termina filtros-->
 
         <!-- Dexripcion pagina-->
 
-        <h2 class="descripcion-pagina"> Encuentra la mejor seleccion de zapatillas para hombre acá! 
-        Utiliza los codigos de descuento disponibles que tenemos y suscribete a nuestra pagina para tener la informacion siempre contigo.</h2>
+        <h2 class="descripcion-pagina"> Encuentra la mejor seleccion de zapatillas exclusivas en este lugar, zapatillas que no puedes encontrar en ningun lugar fisico notros te las llevamos a tú casa.</h2>
     <!--termina descripcion-->
 
         <!--empiezan productos-->
@@ -297,49 +301,7 @@
         </iframe>
         <!-- Termina video publicitario-->
 
-        <!--empieza publicidad
-        <section class="container-publicidad">
-            <div class="row">
-                <div class="col">
-                    
-                    
-                    <div id="publicidad-exclusivos" >
-                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/publcidad/adidas (1).jpg" class="d-block w-100" alt="publicidad 1">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/publcidad/adidas (2).jpg" class="d-block w-100" alt="publicidad 2">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/publcidad/puma (1).jpg" class="d-block w-100" alt="publicidad 3" >
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/publcidad/puma (2).jpg" class="d-block w-100" alt="publicidad 4">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/publcidad/nike (1).gif" class="d-block w-100" alt="publicidad 5">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/publcidad/nike (2).jpg" class="d-block w-100" alt="publicidad 6" >
-                            </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Aterior</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    -->
-        <!-- termina seccion publicidad-->
+    
     </section>    
 </main>
 
